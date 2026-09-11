@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
 
-    // 1
+    
     public static int longestConsecutive(int[] nums) {
         Set<Integer> set = new HashSet<>();
 
@@ -32,7 +32,7 @@ public class Main {
     }
 
 
-    // 2
+   
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
 
@@ -76,7 +76,7 @@ public class Main {
     }
 
 
-    // 3
+    
     public static int totalFruit(int[] items) {
 
         Map<Integer, Integer> count = new HashMap<>();
@@ -108,7 +108,7 @@ public class Main {
     }
 
 
-    // 4
+    
     public static int subarraySum(int[] nums, int k) {
 
         Map<Long, Integer> map = new HashMap<>();
@@ -134,7 +134,7 @@ public class Main {
     }
 
 
-    // 5
+    
     public static int maxArea(int[] height) {
 
         int left = 0;
@@ -161,7 +161,7 @@ public class Main {
     }
 
 
-    // 6
+    
     public static String minWindow(String source, String target) {
 
         if (source.length() < target.length())
